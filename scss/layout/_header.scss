@@ -1,0 +1,26 @@
+header {
+    /*padding: 0.6rem 1rem;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+header .logo {
+    flex-basis: 35%;
+    text-align: center;
+    
+  }
+
+header .logo h1{
+    text-transform: uppercase;
+    font: var(--font-titles);
+    font-size: 4rem;
+    color: var(--color-titulo2);
+    
+    
+} 
+
+header .logo h1 em{
+    font-size: 2rem;
+    margin-top: 0%;
+}

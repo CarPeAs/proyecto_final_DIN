@@ -1,0 +1,25 @@
+@import "../abstracts/variables";
+@import "../abstracts/mixins";
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    @include mixin-fuente(BebasNeue, fonts/BebasNeue-webfont,normal,normal);
+    font-size: $font-size;
+}
+
+body{
+    background-image: url(../../images/bg.png);
+}
+
+
+a{
+    text-decoration: none;
+    &:active{
+        outline: none;
+    }
+}

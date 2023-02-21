@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+@font-face {
+  html {
+    font-family: "BebasNeue";
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/BebasNeue-webfont.eot?") format("eot"), url("fonts/BebasNeue-webfont.woff2") format("woff2"), url("fonts/BebasNeue-webfont.woff") format("woff"), url("fonts/BebasNeue-webfont.ttf") format("truetype"), url("fonts/BebasNeue-webfont.svg#BebasNeue") format("svg");
+  }
+}
+
+body {
+  background-image: url(../../images/bg.png);
+}
+
+a {
+  text-decoration: none;
+}
+a:active {
+  outline: none;
+}
+
+header {
+  /*padding: 0.6rem 1rem;*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo {
+  flex-basis: 35%;
+  text-align: center;
+}
+
+header .logo h1 {
+  text-transform: uppercase;
+  font: var(--font-titles);
+  font-size: 4rem;
+  color: var(--color-titulo2);
+}
+
+header .logo h1 em {
+  font-size: 2rem;
+  margin-top: 0%;
+}
+
+nav {
+  flex-basis: 65%;
+}
+
+nav ul {
+  margin: 0;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav ul li {
+  font-size: 1.3rem;
+  font: var(--font-titles);
+  margin: 0 0.5rem;
+}
+
+header a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #3d667c;
+  font-size: 2rem;
+  font-weight: bold;
+  padding-right: 2rem;
+}
+
+nav ul li a:hover {
+  background-color: #3d667c;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
